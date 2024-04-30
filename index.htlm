@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tela de login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="tela-principal">
+    <div class="esquerdo">
+
+    </div>
+    <div class="caixa-de-login">
+        <h2>Tela de Login</h2>
+        <form id="login-form" action="#" method="post" onsubmit="return validarLogin()">
+            <div class="form-group">
+                <label for="username">Usuário:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Senha:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Entrar">
+            </div>
+        </form>
+    </div> 
+</div>
+<script>
+    function validarLogin() {
+        var username = document.getElementById("username").value;
+        var password = document.getElementById("password").value;
+
+        // Verifica se o usuário e a senha estão corretos (substitua esta condição por sua lógica real de autenticação)
+        if (username === "teste" && password === "teste") {
+            // Redireciona o usuário para a página desejada
+            window.location.href = "https://sistema.mais1cafe.com.br/"; // Substitua "pagina-de-destino.html" pelo URL da página para a qual deseja redirecionar
+            return false; // Impede o envio do formulário padrão
+        } else {
+            alert("Usuário ou senha incorretos.");
+            return false; // Impede o envio do formulário padrão
+        }
+    }
+</script>
+</body>
+</html>
