@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Alinha horizontalmente */
+    align-items: center; /* Alinha verticalmente */
+    height: 100vh;
+}
+
+.caixa-de-login {
+    padding: 20px;
+    border-radius: 50px;
+    box-shadow: 0 0 10px #236e5c;
+    color:rgb(226, 245, 240)
+}
+
+.caixa-de-login h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+.form-group input[type="submit"] {
+    background-color: #236e5c;
+    color: #fff;
+    cursor: pointer;
+}
+
+.form-group input[type="submit"]:hover {
+    background-color: #236e5c;
+}
+
+
+.tela-principal{
+display:flex;
+align-items: center;
+justify-content: center;   
+}
+
+.esquerdo{
+    justify-content: right;
+    align-items: center;
+}
+.esquerdo h1>{
+    justify-content: right;
+    align-items: center;
+    
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('https://marketplace.canva.com/EAFYIWPCudg/1/0/1600w/canva-papel-de-parede-para-computador-astronauta-gal%C3%A1xia-preto-e-branco-lKp1cXK1ybY.jpg'); /* URL da sua imagem de fundo */
+    background-size: cover; /* Garante que a imagem cubra todo o background */
+    background-position: center; /* Centraliza a imagem no background */
+    font-family: Arial, sans-serif;
+}
+
+.tela-principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-group input[type="submit"] {
+        background-color: #236e5c;
+        color: #fff;
+        cursor: pointer;
+        width: 50%;
+        padding: 10px;
+        border: none;
+        border-radius: 50px;
+        box-sizing: border-box;
+        align-self: center;
+    }
+    
+
